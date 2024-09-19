@@ -1,1 +1,3 @@
-# FA24-IXD-256
+## FA24-IXD-256  
+
+Code examples and templates for IXD-256: Advanced Interactive Prototyping.
