@@ -50,8 +50,18 @@ def output_toggle():
   if program_state == 'GREEN':
     program_state = 'YELLOW'
     rgb2.fill_color(0xffff00)
+    
+  elif program_state == 'YELLOW':
+    program_state = 'RED'
+    rgb2.fill_color(0xff0000)
   
-
+  elif program_state == 'RED':
+    program_state = 'GREEN'
+    rgb2.fill_color(0x00ff00)
+    
+  print('program_state =', program_state)
+  
+  
 
 while True:           # infinite loop
   M5.update()         # update M5 board
