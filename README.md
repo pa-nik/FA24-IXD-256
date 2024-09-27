@@ -17,3 +17,7 @@ Code examples and templates for IXD-256: Advanced Interactive Prototyping.
 
 [digital_output.py](class02/digital_output.py) - Digital Output  
 [digital_input_output.py](class02/digital_input_output.py) - Digital Input + Output 
+
+### Class 03 Examples
+  
+[digital_input_output_toggle.py](class03/digital_input_output_toggle.py) - Digital Input + Output Toggle 
