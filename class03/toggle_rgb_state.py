@@ -32,6 +32,12 @@ output_pin = Pin(8, mode=Pin.OUT)
 input_pin = Pin(7, mode=Pin.IN, pull=Pin.PULL_UP)
 input_pin_val = input_pin.value()  # read input pin value
 
+# function that takes r, g, b values and
+# returns combined rgb_color
+def get_rgb_color(r, g, b):
+  rgb_color = (r << 16) | (g << 8) | b
+  return rgb_color
+
 def output_toggle():
   global output_pin_val, output_pin
   global program_state, rgb2
@@ -49,15 +55,19 @@ def output_toggle():
    
   if program_state == 'GREEN':
     program_state = 'YELLOW'
-    rgb2.fill_color(0xffff00)
+    yellow = get_rgb_color(255, 255, 0)
+    #rgb2.fill_color(0xffff00)
+    rgb2.fill_color(yellow)
     
   elif program_state == 'YELLOW':
     program_state = 'RED'
-    rgb2.fill_color(0xff0000)
+    #rgb2.fill_color(0xff0000)
+    rgb2.fill_color(get_rgb_color(255, 0, 0))
   
   elif program_state == 'RED':
     program_state = 'GREEN'
-    rgb2.fill_color(0x00ff00)
+    #rgb2.fill_color(0x00ff00)
+    rgb2.fill_color(get_rgb_color(0, 255, 0))
     
   print('program_state =', program_state)
   
