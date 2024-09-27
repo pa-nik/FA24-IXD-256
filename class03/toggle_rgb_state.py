@@ -57,17 +57,29 @@ def output_toggle():
     program_state = 'YELLOW'
     yellow = get_rgb_color(255, 255, 0)
     #rgb2.fill_color(0xffff00)
-    rgb2.fill_color(yellow)
+    #rgb2.fill_color(yellow)
+    # fade from green to yellow:
+    for i in range(255):
+      rgb2.fill_color(get_rgb_color(i, 255, 0))
+      time.sleep_ms(5)
     
   elif program_state == 'YELLOW':
     program_state = 'RED'
     #rgb2.fill_color(0xff0000)
     rgb2.fill_color(get_rgb_color(255, 0, 0))
+    # fade from yellow to red:
+    for i in range(255):
+      rgb2.fill_color(get_rgb_color(255, 255-i, 0))
+      time.sleep_ms(5)
   
   elif program_state == 'RED':
     program_state = 'GREEN'
     #rgb2.fill_color(0x00ff00)
     rgb2.fill_color(get_rgb_color(0, 255, 0))
+    # fade from red to green:
+    for i in range(255):
+      rgb2.fill_color(get_rgb_color(255-i, i, 0))
+      time.sleep_ms(5)
     
   print('program_state =', program_state)
   
