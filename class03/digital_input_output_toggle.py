@@ -1,5 +1,5 @@
-# digital input / output example:
-# using button on pin 7 to control an LED connected to pin 8
+# digital input + output toggle example:
+# using button on pin 7 to toggle an LED connected to pin 8
 
 import os, sys, io
 import M5
