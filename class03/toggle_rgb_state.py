@@ -1,5 +1,5 @@
-# digital input / output example:
-# using button on pin 7 to control an LED connected to pin 8
+# digital input to RGB color change example:
+# using button on pin 7 to fade RGB LED strip connected on pin2
 
 import os, sys, io
 import M5
@@ -7,7 +7,7 @@ from M5 import *
 from hardware import *
 import time
 
-print('digital input + output toggle example')
+print('digital input to change RGB colors')
 
 # initialize M5 board:
 M5.begin()
