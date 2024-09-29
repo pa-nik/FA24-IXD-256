@@ -27,6 +27,7 @@ rgb_color = (r << 16) | (g << 8) | b
 print('decimal rgb_color =', rgb_color)
 print('hexadecimal rgb_color =', hex(rgb_color))
 print('binary rgb_color =', bin(rgb_color))
+
 # fill all pixels of rgb_strip with rgb_color:
 rgb_strip.fill_color(rgb_color)
 
