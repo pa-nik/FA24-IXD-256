@@ -20,5 +20,5 @@ Code examples and templates for IXD-256: Advanced Interactive Prototyping.
 
 ### Class 03 Examples
   
-[digital_input_output_toggle.py](class03/digital_input_output_toggle.py) - Digital Input + Output Toggle 
+[digital_input_output_toggle.py](class03/digital_input_output_toggle.py) - Digital Input + Output Toggle  
 [toggle_rgb_state.py](class03/toggle_rgb_state.py) - Changing RGB colors with digital input 
