@@ -22,3 +22,8 @@ Code examples and templates for IXD-256: Advanced Interactive Prototyping.
   
 [digital_input_output_toggle.py](class03/digital_input_output_toggle.py) - Digital Input + Output Toggle  
 [toggle_rgb_state.py](class03/toggle_rgb_state.py) - Changing RGB colors with digital input 
+
+### Class 04 Examples
+  
+[angle_unit.py](class04/angle_unit.py) - Reading ANGLE Unit (Potentiometer)    
+[
