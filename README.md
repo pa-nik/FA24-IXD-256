@@ -26,4 +26,4 @@ Code examples and templates for IXD-256: Advanced Interactive Prototyping.
 ### Class 04 Examples
   
 [angle_unit.py](class04/angle_unit.py) - Reading ANGLE Unit (Potentiometer)    
-[
+[angle_to_rgb.py](class04/angle_to_rgb.py) - Controlling RGB strip with ANGLE Unit     
