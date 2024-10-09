@@ -6,9 +6,9 @@ separate folders and include a `README.md` file for each one.  This file will be
 your documentation, written in text-based *Markdown* format (.md)  
   
 Please review the [GitHub Markdown Tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
-to learn how to on how to use it. Below is the recommended structure for your documentation. 
-You can check the [raw version](https://github.com/pa-nik/FA24-IXD-256/edit/main/assignment01/README.md) 
-of this page to see its Markdown format.  
+to learn how to on how to use it. This page is the recommended structure for your 
+documentation and you can check its [raw version](https://github.com/pa-nik/FA24-IXD-256/edit/main/assignment01/README.md) 
+to see the Markdown format.  
   
 This of this documentation as project explanation and a resource for 
 yourself, as well as someone new who could be coming across your project online. 
