@@ -2,8 +2,8 @@
   
 Each assignment/project we complete in this class should be documented in your own 
 GitHub repository.  I recommend that you organize your project files into 
-separate folders and include a `README.md` file for each one.  This file will be 
-your documentation, written in text-based *Markdown* format (.md)  
+separate folders and document it using a `README.md` file written in 
+text-based *Markdown* format (.md)  
   
 Please review the [GitHub Markdown Tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
 to learn how to on how to use it. This page is the recommended structure for your 
