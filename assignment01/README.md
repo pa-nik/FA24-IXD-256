@@ -59,7 +59,7 @@ Explain what products, materials or components you used for the project.
 If you fabricated your own project components, include some details on 
 how you made them.
 
-## Project outcome  
+### Project outcome  
 
 Summarize the results of your project implementation and include at least 
 1 photo of the finished prototype.  
