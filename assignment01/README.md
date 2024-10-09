@@ -44,7 +44,7 @@ Upload your MicroPython code and highlight important code snippet(s) that make
 your prototype work.  Most likely you should explain the inputs/outputs used 
 in your code and how they affect the behavior of the prototype.
 
-To include code snippets, you can use the code block markdown, like this:
+To include code snippets, you can use the code block markdown:
 
 ``` Python  
   if input_pin.value():  # read digital input
