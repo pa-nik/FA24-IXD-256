@@ -5,9 +5,9 @@ GitHub repository.  I recommend that you organize your project files into
 separate folders and include a `README.md` file for each one.  This file will be 
 your documentation, written in text-based *Markdown* format (.md)  
   
-Plese review the (GitHub Markdown Tutorial)[https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax] 
+Plese review the [GitHub Markdown Tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
 to learn how to on how to use it. Below is the recommended structure for your documentation. 
-You can check the (raw version)[../assignment01/raw/refs/heads/main/assignment01/README.md] 
+You can check the [raw version](../assignment01/raw/refs/heads/main/assignment01/README.md) 
 to see its Markdown format.  
 
 ### Introduction
