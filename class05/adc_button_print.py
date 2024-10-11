@@ -1,3 +1,6 @@
+# read ADC and button inputs and print values separated by comma
+# use this code to test webserial_pyscript_template
+
 import os, sys, io
 import M5
 from M5 import *
