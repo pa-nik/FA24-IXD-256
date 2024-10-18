@@ -33,13 +33,21 @@ def draw():
 
   # assign content of "data" div on index.html page to variable:
   data_string = document.getElementById("data").innerText
+
   # split data_string by comma, making a list:
   data_list = data_string.split(',')
 
-  # assign 1st item of data_list to sensor_val:
-  sensor_val = int(data_list[0])
-  # assign 2nd item of data_list to sensor_val:
-  button_val = int(data_list[1])
+  # check how many items the list contains:
+  if (len(data_list)== 2): # received 2 values
+    # assign 1st item of data_list to sensor_val:
+    sensor_val = int(data_list[0])
+    # assign 2nd item of data_list to sensor_val:
+    button_val = int(data_list[1])
+  elif (len(data_list) == 1): # received only 1 value
+    # assign 1st item of data_list to sensor_val:
+    sensor_val = int(data_list[0])
+    # assign 0 to button_val
+    button_val = 0
 
   p5.noStroke()  # disable stroke
   # fill function can take 1 argument (gray)
