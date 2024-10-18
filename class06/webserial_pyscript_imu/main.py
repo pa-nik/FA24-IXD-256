@@ -24,8 +24,17 @@ def draw():
   if (len(data_list)> 1):
     imu_data[2] = float(data_list[2])
 
+  p5.fill(0)
   for i in range(3):
-    p5.text(imu_data[0], 10, 20 + i*15)
+    p5.text(imu_data[i], 10, 20 + i*15)
+
+  acc_x = imu_data[0]
+
+  # map the X acceleration to range 0 - 255
+  r = p5.map(acc_x, -5.0, 5.0, 0, 255)
+
+  p5.fill(r, 0, 0)
+  p5.ellipse(p5.width/2, p5.height/2, 100)
 
 
   
