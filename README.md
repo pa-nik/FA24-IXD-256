@@ -29,3 +29,8 @@ Code examples and templates for IXD-256: Advanced Interactive Prototyping.
 [angle_to_rgb.py](class04/angle_to_rgb.py) - Controlling RGB strip with ANGLE Unit  
 [adc_read.py](class04/adc_read.py) - Reading any analog input with ADC     
 [adc_to_rgb.py](class04/adc_to_rgb.py) - Controlling RGB strip with ADC input 
+
+### Class 05 Examples
+  
+[adc_button_print.py](class05/adc_button_print.py) - Print ADC and button inputs (test with WebSerial PyScript Template)  
+[WebSerial PyScript Template](class05/webserial_pyscript_template/) - using Serial input to change  shapes, images, fonts + play sounds  
