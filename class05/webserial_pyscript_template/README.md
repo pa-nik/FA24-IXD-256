@@ -8,10 +8,10 @@ NOTE: this template expects 2 inputs from the hardware, separated by comma.  The
 
 The software program can be previewed running and responding to the inputs online by following these steps:
 
-1. use Thonny to run a firmware example such as [print_adc_and_button.py](../print_adc_and_button.py) or [print_imu_and_button.py](../print_imu_and_button.py) on your AtomS3 hardware.  Observe that 2 values separated by comma are printed to the terminal in Thonny.  
+1. use Thonny to run a firmware example such as [adc_button_print.py](../adc_button_print.py) on your AtomS3 hardware.  Observe that 2 values separated by comma are printed to the terminal in Thonny.  
 
 2. disconnect from AtomS3 (change the Python interpreter to "Local Python 3" option at the bottom right of Thonny window).  The firmware program should still be running and updating the display on AtomS3.
 
-3. go to the [GitHub Pages link for this directory](https://pa-nik.github.io/SP24-IXD-256/class05/webserial_pyscript_template/) and click the 'Connect' button.  You should see the number values under the button updated and various graphical elements responding to the inputs.  In addition, pressing the screen button on AtomS3 should trigger sound playback.  
+3. go to the [GitHub Pages link for this directory](https://pa-nik.github.io/FA24-IXD-256/class05/webserial_pyscript_template/) and click the 'Connect' button.  You should see the number values under the button updated and various graphical elements responding to the inputs.  In addition, pressing the screen button on AtomS3 should trigger sound playback.  
 
 ![screencap_webserial_test.png](screencap_webserial_template.png)
