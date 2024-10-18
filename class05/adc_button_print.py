@@ -30,8 +30,10 @@ while True:
   # remap the range of values from 0 - 4095 to 0 - 255:
   adc_val = int(m5utils.remap(adc_val, 0, 4095, 0, 255))
   
+  # print ADC and button values to send them to the USB Serial port:
   print(adc_val, ',', button_val)
   
+  # some delay to make sure the data is not sent too fast:
   time.sleep_ms(50)
 
 
