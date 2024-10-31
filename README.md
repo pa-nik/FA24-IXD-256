@@ -33,4 +33,9 @@ Code examples and templates for IXD-256: Advanced Interactive Prototyping.
 ### Class 05 Examples
   
 [adc_button_print.py](class05/adc_button_print.py) - Print ADC and button inputs (test with WebSerial PyScript Template)  
-[WebSerial PyScript Template](class05/webserial_pyscript_template/) - using Serial input to change  shapes, images, fonts + play sounds  
+[WebSerial PyScript Template](class05/webserial_pyscript_template/) - using Serial input to change shapes, images, fonts + play sounds  
+  
+### Class 06 Examples
+  
+[imu_pro_unit_test.py](class06/imu_pro_unit_test.py) - Reading IMU Pro Unit data
+[imu_test.py](class06/imu_test.py) - Reading built-in IMU data (AtomS3 with screen)
