@@ -37,7 +37,7 @@ Code examples and templates for IXD-256: Advanced Interactive Prototyping.
   
 ### Class 06 Examples
   
-[imu_pro_unit_test.py](class06/imu_pro_unit_test.py) - Reading IMU Pro Unit data
+[imu_pro_unit_test.py](class06/imu_pro_unit_test.py) - Reading IMU Pro Unit data  
 [imu_test.py](class06/imu_test.py) - Reading built-in IMU data 
   
 ### Class 07 Examples  
