@@ -42,6 +42,7 @@ Code examples and templates for IXD-256: Advanced Interactive Prototyping.
   
 ### Class 07 Examples  
   
-[imu_tilt_and_motion.py](class07/imu_tilt_and_motion.py) - Detecting tilt and motion with built-in IMU   
+[imu_tilt_and_motion.py](class07/imu_tilt_and_motion.py) - Detecting tilt and motion with built-in IMU (Atom S3)   
+[imu_pro_tilt_and_motion.py](class07/imu_pro_tilt_and_motion.py) - Detecting tilt and motion with IMU Pro Unit (AtomS3 Lite)  
   
 NOTE: code examples with *built-in IMU* can only run on AtomS3 with a screen  
