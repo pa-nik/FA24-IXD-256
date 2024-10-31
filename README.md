@@ -44,4 +44,4 @@ Code examples and templates for IXD-256: Advanced Interactive Prototyping.
   
 [imu_tilt_and_motion.py](class07/imu_tilt_and_motion.py) - Detecting tilt and motion with built-in IMU   
   
-NOTE: code examples with built-in IMU can only run on AtomS3 with a screen  
+NOTE: code examples with *built-in IMU* can only run on AtomS3 with a screen  
