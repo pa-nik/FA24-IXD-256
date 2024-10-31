@@ -73,10 +73,8 @@ while True:
   else:
     label2.setText('no X motion')
 
-  # absolute value of the difference between new and last Y values:
-  imu_y_diff = math.fabs(imu_y_val - imu_y_last)  
   # display Y MOTION according to change in Y-axis:
-  if imu_y_diff > 0.5:
+  if (imu_y_val - imu_y_last > 0.5) or (imu_y_val - imu_y_last < -0.5):
     label3.setText('Y MOTION')
   else:
     label3.setText('no Y motion')
