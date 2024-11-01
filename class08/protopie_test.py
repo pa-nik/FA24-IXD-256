@@ -17,7 +17,7 @@ while True:           # infinite loop
   
   # read analog value from ADC:
   adc_val = adc.read()
-  print(adc_val)
+  print('a||', adc_val)
   
   if BtnA.wasPressed():
       print('b')
