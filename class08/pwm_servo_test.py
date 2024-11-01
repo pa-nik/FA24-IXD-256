@@ -19,6 +19,7 @@ duty_cycle = 75
 pwm1.duty(duty_cycle)
 
 # try values between 60 to 90 for 360 degree servo
+# try values between 30 and 130 for 180 degree servo
 
 while True:           # infinite loop
   M5.update()         # update M5 board
@@ -26,10 +27,10 @@ while True:           # infinite loop
   input_data = input('type duty cycle value and press return: ')
   duty_cycle = int(input_data)
   # limit duty_cycle to 50 - 100 range:
-  if duty_cycle < 50:
-      duty_cycle = 50
-  elif duty_cycle > 100:
-      duty_cycle = 100
+#   if duty_cycle < 50:
+#       duty_cycle = 50
+#   elif duty_cycle > 100:
+#       duty_cycle = 100
   pwm1.duty(duty_cycle)
   print('duty cycle = ', duty_cycle)
   time.sleep_ms(100)
