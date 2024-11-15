@@ -21,8 +21,8 @@ wifi.connect(ssid, password)
 
 print('connect to WiFi...')
 while wifi.isconnected() == False:
-print('.', end='')
-time.sleep_ms(100)
+    print('.', end='')
+    time.sleep_ms(100)
 
 print('WiFi connection successful')
 ip_list = wifi.ifconfig()
@@ -38,7 +38,6 @@ mqtt_client = MQTTClient(
   keepalive = 3000
 )
 mqtt_client.connect(clean_session=True)  
-mqtt_client.subscribe(aio_user_name+'/feeds/button-feed', feed_callback)
 
 M5.begin()
 
