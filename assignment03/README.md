@@ -1,12 +1,12 @@
 ## Introduction   
 
-Provide a description of your initial project idea and include images of the concept sketches that you created in Part 1 of this assignment.  Explain the reasoning behind your final choice of the project concept, whether it’s based on one of the initial sketches, or a departure from the original concepts.  
+Provide a description of your initial project idea and include images of the concept sketches that you created in Part 1 of this assignment.  Explain the reasoning behind your final choice of the project concept, whether it’s based on one of the initial sketches, or a departure from the original idea.  
 
 ## Implementation   
 
 Explain your process of prototype development including all applicable aspects such as hardware (electronics), firmware (MicroPython code), software (HTML/CSS/JavaScript or other code), integrations (Adafruit IO, IFTTT, etc.), enclosure and mechanical design.  
 
-In general, think of your audience as someone new trying to learn how to make your project and make sure to cover anything helpful to explain the functional parts of it.  Use a separate subheader for each part:
+In general, think of your audience as someone new trying to learn how to make your project and make sure to cover anything helpful to explain how it functions.  Use a separate subheader for each part:
 
 ### Hardware
 
@@ -15,18 +15,16 @@ List all the separate hardware components used in your project and briefly expla
 * item 2   
 * etc.  
 
-Include a schematic diagram image (hand-drawn is OK) showing all the wiring connections between the M5Stack AtomS3 board and other components.  
-
-In addition, include at least one photo showing your hardware wiring.  This could be several close-ups with the goal of showing how the wiring connections are made.  
+Include at least one image showing your hardware wiring in detail.  This could be several close-ups photos with the goal of showing the wiring connections are made between the ATOM board and each hardware component.  
 
 ### Firmware   
 
-Provide a link to your MicroPython code and explain a few important parts that make your prototype work.  Most likely you should explain the inputs/outputs used in your code and how they affect the behavior of the prototype.
+Provide a link to your MicroPython code and explain the important parts that make your prototype work.  Most likely you should explain the inputs/outputs used in your code and how they affect the behavior of the prototype.
 
 To include code snippets, you can use the code block markdown, like this:
 
 ``` Python  
-if(input_val > 1000):  # sensor value higher than threshold
+if(sensor_val > 100):  # sensor value higher than threshold
    led_pin.on()  # turn on LED
 ```
 
@@ -36,7 +34,7 @@ If applicable, explain the important software components of your project with re
 
 ### Integrations   
 
-Include a link to and/or screenshots of other functional components of your project, like Adafruit IO feeds, dashboards, IFTTT applets, etc.  
+Include a link to and/or screenshots of any communication components used in your project, like Adafruit IO feeds, dashboards, IFTTT applets, etc.  
 
 ### Enclosure / Mechanical Design   
 
@@ -44,7 +42,9 @@ Explain how you made the enclosure or any other physical or mechanical aspects o
 
 ## Project outcome  
 
-Summarize the results of your final project implementation and include at least 2 photos of the prototype and a video walkthrough of the functioning demo.
+Summarize the results of your final project implementation and include some photos of the prototype and a video walkthrough showing it working.  
+
+Note that GitHub has a small size limit for uploading files via browswer (25Mb max), so you may choose to use a link to YouTube, Google Drive, or another external site.
 
 ## Conclusion  
 
