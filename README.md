@@ -49,4 +49,6 @@ NOTE: code examples with *built-in IMU* can only run on AtomS3 with a screen
 
 ### Extras  
   
-[AtomS3 Begin](extras/atomS3_begin.py) - beginner template for AtomS3 firwmare  
+[AtomS3 Begin](extras/atomS3_begin.py) - beginner template for AtomS3 firmware  
+[BLE UART Server](extras/ble_uart_server.py) - Bluetooth communication server example  
+[BLE UART Client](extras/ble_uart_client.py) - Bluetooth communication client example  
